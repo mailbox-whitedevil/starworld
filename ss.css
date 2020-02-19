@@ -1,0 +1,484 @@
+*{
+  padding: 0px; margin: 0px; outline: 0px;
+}
+.header{
+  background: #232F3E;
+  height: 51px;
+}
+body{
+  font-family: arial;
+}
+#bar{
+  color: white;
+  font-weight: normal;
+  font-size: 30px;
+  border: 1px solid #6E6E6E;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  padding-right: 8px;
+  margin-right: 10px;
+}
+#bar:hover{
+  border: 1px solid white;
+}
+#starr{
+  text-decoration: none;
+}
+#star{
+  font-size: 35px;
+  color: #FE642E;
+}
+#world{
+  font-size: 26px;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+  font-weight: bold;
+}
+#com{
+  color: white;
+  font-size: 15px;
+}
+select{
+  padding: 2px;
+
+}
+#all{
+  background: white;
+  margin-left: 60px;
+  padding-right: 1px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 5px;
+}
+input[type:text]{
+  border: 0px;
+}
+#se{
+  font-size: 18px;
+  background: orange;
+  padding-top: 5px;
+  padding-bottom:8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 5px;
+}
+#se:hover{
+  background: #DF7401;
+}
+#see{
+  text-decoration: none;
+}
+#globe{
+  color: white;
+  font-size: 30px;
+
+}
+#lan{
+  font-size: 11px;
+}
+#Language{
+    margin-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-left: 10px;
+    padding-right: 8px;
+}
+#Language:hover{
+  border: 1px solid #6E6E6E;
+  padding-top: 15px;
+  padding-bottom: 7px;
+  padding-left: 9px;
+  padding-right: 7px;
+  border-radius: 4px;
+}
+#hhe{
+  border: 1px solid #232F3E;
+  margin-left: 20px;
+  padding-top: 4px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+#he{
+  color: white;
+  text-decoration: none;
+  width: 10px;
+
+}
+#hello{
+  font-size: 11px;
+}
+#helloo{
+  font-size: 13px;
+  font-weight: bold;
+}
+#hhe:hover{
+  border: 1px solid #6E6E6E;
+  border-radius: 4px;
+  margin-left: 20px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+#rre{
+border: 1px solid #232F3E;
+padding-top: 4px;
+padding-left: 16px;
+padding-right: 10px;
+}
+#rre:hover{
+  border: 1px solid #6E6E6E;
+  padding-top: 4px;
+  padding-left: 16px;
+  padding-right: 10px;
+}
+#cart{
+  padding-bottom: 10px;
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 8px;
+}
+#cart:hover{
+  border: 1px solid #6E6E6E;
+  padding-top: 15px;
+  padding-bottom: 7px;
+  padding-left: 9px;
+  padding-right: 7px;
+  border-radius: 4px;
+}
+#cart2{
+  font-size: 15px;
+  padding-left: 5px;
+  font-weight: bold;
+  font-family: arial;
+}
+
+
+/*header closed*/
+
+.navi{
+  background: #232F3E;
+  height: 55px;
+}
+#location{
+  color: white;
+  font-size: 30px;
+}
+#locati{
+  text-decoration: none;
+}
+#locat{
+    margin-left: 20px;border: 1px solid #232F3E;
+    padding-left: 7px; padding-right: 7px;
+}
+#locat:hover{
+    margin-left: 20px;  border: 1px solid #6E6E6E;
+    padding-left: 7px; padding-right: 7px;
+}
+#loca{
+  font-size: 11px;
+  color: white;
+}
+#locaa{
+    font-size: 13px;
+  font-weight: bold;
+  color: white;margin-left: 20px;
+}
+#mob{
+    color: white;
+  font-size: 32px;
+}
+#mobi{
+    font-size: 15px;
+  padding-left: 5px;
+  font-weight: bold;
+  font-family: arial;
+  text-decoration: none;
+  color: white;
+}
+#mobile{
+  margin-left: 70px;  padding-top: 15px;border: 1px solid #232F3E;
+  padding-bottom: 7px;
+  padding-left: 9px;
+  padding-right: 7px;
+}
+#mob:hover,#hp:hover,#lap:hover,#bat:hover,#laptop:hover{
+   color: #2EFE2E;
+   text-decoration: none;
+}
+#mobile:hover,#laptop:hover{
+    border: 1px solid #6E6E6E;
+  padding-top: 15px;
+  padding-bottom: 7px;
+  padding-left: 9px;
+  padding-right: 7px;
+  border-radius: 4px;
+ 
+}
+#laptop{
+  padding-top: 15px;border: 1px solid #232F3E;
+  padding-bottom: 7px;
+  padding-left: 9px;
+  padding-right: 7px;
+}
+#lap{
+      color: white;
+  font-size: 28px;
+}
+#hp{
+      color: white;
+  font-size: 27px;
+}
+#bat{
+      color: white;
+  font-size: 25px;
+}
+#Settings{
+    margin-left: 50px;  padding-top: 15px;border: 1px solid #232F3E; text-decoration: none;
+  padding-bottom: 7px;
+  padding-left: 9px;
+  padding-right: 7px;
+}
+#setting:hover{
+text-shadow: 2px 2px 5px white, -2px -2px 5px white;
+color: black;
+font-size: 40px; text-decoration: none;
+}
+#setting{
+  font-size: 20px;
+  color: white;
+
+}
+#set{
+  font-size: 15px;
+  padding-left: 5px;
+  font-weight: bold;
+  font-family: arial;
+  text-decoration: none;
+  color: white 
+}
+#ref{
+  padding-top: 15px;border: 1px solid #232F3E;
+  padding-bottom: 7px;
+  padding-left: 9px;
+  padding-right: 7px; text-decoration: none;
+}
+#prime{
+  background-image: linear-gradient(to right, white, yellow); border-radius: 40px;
+  padding-left:25px;
+  padding-right: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-left: 10px;
+
+  color: black;
+  text-decoration: none; font-size: 17px; font-weight: bold;
+}
+#animation{}
+/*navigation is closed here.......*/
+
+#main{
+  background: #EAEDED;
+  height: 2150px;
+}
+#one{
+  position: relative;
+  margin-left: 200px;
+  padding-top: 254px;
+}
+#onep,#onepp,#twoo{
+  background: white; margin-left: 20px; padding-left: 20px; padding-right: 20px;
+  height: 420px;
+  width: 352px;
+  float:left; 
+}
+.tri{
+  font-weight: bold;
+  font-size: 21px;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+#phn{
+  text-decoration: none;
+  color: black;
+}
+#phn span{
+  font-size: 13px;
+}
+#onep table{
+  margin-bottom: 20px;
+}
+.sm{
+  margin-top: 40px;
+}
+#sm{
+  text-decoration: none;
+  font-size: 13px;
+  color: #0091E9;
+}
+#onepp table{
+  margin-bottom: 10px;
+}
+#oneppp{
+  background: white; margin-left: 20px; padding-left: 20px; padding-right: 20px;
+  height: 150px; width: 352px; float: left;
+}
+#oneppp button{
+  background:#F3CE74;
+  color: black;
+  border: 1px solid #8A4B08; font-size: 13px; border-radius: 3px;
+  margin-top: 5px; margin-left: 8px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+#onne{
+  height: 420px;
+  width: 352px;
+  float:left;     
+}
+#onne div img{
+  margin-left:40px;
+  margin-top: 18px; cursor: pointer;
+}
+/*-----here close first body section-----*/
+
+#two{
+
+  padding-top: 440px;
+}
+/*----here closed second body section-------*/
+
+#three{
+
+  padding-top: 440px;
+}
+#hd{
+  background: white; margin-left: 20px; padding-left: 20px; padding-right: 20px;
+  height: 270px; width: 1470px;
+}
+.trri{
+  font-weight: bold; color: #4F4444;
+  font-size: 21px;
+  padding-top: 10px;
+  padding-bottom: 18px;
+}
+#smm{
+  text-decoration: none;
+  font-size: 13px;
+  color: #0091E9;
+  margin-left: 25px; font-weight: normal;
+
+}
+#overflow{
+  overflow: scroll; 
+}
+/*-----here closed three body section----*/
+
+#four{
+  margin-left: 250px;
+  padding-top: 20px;
+}
+#five{
+  padding-top: 20px;
+}
+.umain{
+  height: 500px; clear: both; padding-top: 40px;
+}
+.umain #in{
+  padding-left: 20px; border-top: 1px solid #DDDDDD; padding-top: 35px;
+}
+
+#ins{
+  font-size:22px;
+}
+#inss{
+  padding-left: 1430px; font-weight: normal;
+}
+#but{
+  width: 1870px; background: red;
+  height: 10px;  margin-left: 20px; margin-top: 20px;
+}
+#af{
+  font-size: 50px; margin-right: 10px; margin-left: 10px;
+}
+#arrow{
+  margin-left: 870px;
+}
+#arrow button{
+  margin-right: 5px; cursor: pointer; margin-top: 5px;
+}
+
+/*here close last body section now start footer section....*/
+
+.footer{
+  background: #232F3E; height: 465px;
+}
+#topp{
+  text-align: center; background: #37475A;
+  padding: 15px; font-size: 13px;
+}
+#back{
+  text-decoration: none; color: white;
+}
+#ta{
+  margin-left: 480px; margin-top: 50px; margin-bottom: 50px;
+}
+#ta tr th{
+  padding-right: 110px; color: white; font-size: 17px; font-weight: bold;
+}
+#ta tr td{
+  padding-top: 5px; padding-bottom: 5px;
+}
+#abo{
+  text-decoration: none;
+  color: #D7CCBA; font-size: 13px;
+}
+#last{
+  border-top: 1px solid #37475A; height: 70px; background: #131A22;  padding-top: 20px;
+}
+#last p{
+  text-align: center;
+}
+#con{
+  text-decoration: none; color: #D7CCBA; padding-right: 10px; padding-left: 10px; font-size: 13px;
+}
+#last p span{
+  color: #605F46; font-size: 13px;
+}
+#hhh{
+  padding: 10px;
+}
+
+
+
+/*hover start................*/
+
+#sm:hover,#smm:hover{
+  color: #DF7401;
+  text-decoration: underline;
+}
+#onep:hover{
+  border: 5px solid black;
+  box-shadow: -10px 10px 10px black;
+}
+#onepp:hover,#oneppp:hover{
+  border: 5px solid black;
+  box-shadow: -10px 10px 10px black,10px 0px 10px black;
+}
+#oneppp button:hover{
+  background: #FFBF00;
+}
+#arrow button:hover{
+  color: black;
+}
+#topp:hover{
+  background: #37567A;
+}
+#abo:hover{
+  text-decoration: underline;
+}
+#con:hover{
+  text-decoration: underline;
+}

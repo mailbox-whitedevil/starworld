@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style type="text/css">
+      * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .5}
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+    </style>
+    <link rel="stylesheet" href="ss.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  </head>
+  <body>
+    <div class="header" id="top">
+        <table>
+          <tr>
+            <td>
+                <i class="fa fa-bars" id="bar"></i>
+            </td>
+            <td>
+              <a href="javascript:;" id="starr">
+              <i class="fa fa-star-half" id="star"></i><span id="world">WORLD</span><span id="com">.com</span></a>
+            </td>
+            <td>
+              <a id="all"> <select>
+                  <option>All</option>
+                  <option>All Catagories</option>
+                  <option>Alexa World</option>
+                  <option>Bata Shoe</option>
+                  <option>Laptop</option>
+                  <option>Mobile Accesseories</option>
+                  <option>Game for children</option>
+                  <option>Books</option>
+                  <option>Perfume</option>
+                  <option>Dress</option>
+                  <option>Bags</option>
+                  <option>All Catagories</option>
+                  <option>Alexa World</option>
+                  <option>Bata Shoe</option>
+                  <option>Laptop</option>
+                  <option>Mobile Accesseories</option>
+                  <option>Game for children</option>
+                  <option>Books</option>
+                  <option>Perfume</option>
+                  <option>Dress</option>
+                  <option>Bags</option>
+                  <option>All Catagories</option>
+                  <option>Alexa World</option>
+                  <option>Bata Shoe</option>
+                  <option>Laptop</option>
+                  <option>Mobile Accesseories</option>
+                  <option>Game for children</option>
+                  <option>Books</option>
+                  <option>Perfume</option>
+                  <option>Dress</option>
+                  <option>Bags</option>
+                </select>
+                <input type="text" name="text" size="100">
+                <a href="javascript:;" id="see"><i class="fa fa-search" id="se"></i></a>
+              </a>
+            </td>
+            <td>
+              <a href="javascript:;" id="Language"><i class="fa fa-globe" id="globe"><span id="lan">Language</span></i></a>
+            </td>
+            <td id="hhe">
+              <a href="javascript:;" id="he"><span id="hello">Hello, Sign in</span><br><span id="helloo">Account & Lists</span></a>
+            </td>
+            <td id="rre">
+              <a href="javascript:;" id="he"><span id="hello">Return &</span><br><span id="helloo">Order</span></a>
+            </td>
+              <td id="rre">
+              <a href="javascript:;" id="he"><span id="hello">Try</span><br><span id="helloo">Prime</span></a>
+            </td>
+            <td>
+              <a href="javascript:;" id="cart"><i class="fa fa-cart-plus" id="globe"><span id="cart2">Cart</span></i></a>
+            </td>
+          </tr>
+        </table>
+
+    </div>
+<!---header closed here---->
+
+
+<div class="navi">
+  <table>
+    <tr>
+      <td><a href="javascript:;" id="locati"><p id="locat"><i class="fa fa-street-view" id="location"></i><span id="loca">Deliver to</span><br><span id="locaa">Enter Your Loaction</span></p></a></td>
+    <td>
+        <a href="javascript:;" id="mobile"><i class="fa fa-mobile" id="mob"><span id="mobi">Mobiles</span></i></a>
+    </td>
+    <td>
+        <a href="javascript:;" id="laptop"><i class="fa fa-laptop" id="lap"><span id="mobi">Laptops</span></i></a>
+    </td>
+    <td>
+        <a href="javascript:;" id="laptop"><i class="fa fa-headphones" id="hp"><span id="mobi">Headphones</span></i></a>
+    </td>
+    <td>
+        <a href="javascript:;" id="laptop"><i class="fa fa-battery" id="bat"><span id="mobi">Battery</span></i></a>
+    </td>
+    <td>
+        <a href="javascript:;" id="laptop"><i class="fa fa-book" id="hp"><span id="mobi">Books</span></i></a>
+    </td>
+    <td>
+        <a href="javascript:;" id="laptop"><i class="fa fa-briefcase" id="hp"><span id="mobi">Bags</span></i></a>
+    </td>
+    <td>
+        <a href="javascript:;" id="laptop"><i class="fa fa-address-card" id="hp"><span id="mobi">Address Card</span></i></a>
+    </td>
+    <td>
+        <a href="javascript:;" id="laptop"><i class="fa fa-gift" id="hp"><span id="mobi">Birthday Gifts</span></i></a>
+    </td>
+    <td>
+        <a href="javascript:;" id="laptop"><i class="fa fa-wifi" id="bat"><span id="mobi">JioFi</span></i></a>
+    </td>
+    <td>
+        <a href="javascript:;" id="laptop"><i class="fa fa-bluetooth" id="bat"><span id="mobi">Bluetooth</span></i></a>
+    </td>
+    <td>
+        <a href="javascript:;" id="Settings"><i class="fa fa-cog fa-spin" id="setting"></i><span id="set">Settings</span></a>
+    </td>
+    <td>
+        <a href="javascript:;" id="ref"><i class="fa fa-refresh fa-spin" id="setting"></i><span id="set">Refresh</span></a>
+    </td>
+    <td>
+      <a href="javascript:;" id="prime" onmouseover="a()" onmouseout="b()">
+        Prime Memebership
+      </a>
+      <script type="text/javascript">
+        function a()
+        {
+          document.getElementById("prime").setAttribute(
+            "style", "background-image: linear-gradient(to right, black, pink); color:white;");
+        }
+                function b()
+        {
+          document.getElementById("prime").setAttribute(
+            "style", "background-image: linear-gradient(to right, pink, black); color:white");
+        }
+      </script>
+    </td>
+
+
+    </tr>
+  </table>
+    <div id="animation">
+
+  <div class="slideshow-container">
+
+<div class="mySlides fade">
+
+  <img src="img/d.jpg" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+
+  <img src="img/c.jpg" style="width:100%">
+
+</div>
+
+<div class="mySlides fade">
+
+  <img src="img/a.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+
+  <img src="img/e.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+
+  <img src="img/b.jpg" style="width:100%">
+</div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+</div>
+
+
+</div>
+
+
+<!--navigation is closed here---->
+
+<div id="main">
+
+<div id="one">
+
+  <div id="onepp">
+    <p class="tri">Triple camera smartphones | Starting ₹8,990</p>
+    <table>
+      <tr>
+        <td><a href="javascript:;" id="phn"><img src="phn/a.jpg" width="96%"><br><span>Vivo U10</span></a></td>
+        <td><a href="javascript:;" id="phn"><img src="phn/b.jpg" width="96%"><br><span>Galaxy M30s</span></a></td>
+      </tr>
+    </table>
+        <table>
+      <tr>
+        <td><a href="javascript:;" id="phn"><img src="phn/c.jpg" width="96%"><br><span>Vivo U10</span></a></td>
+        <td><a href="javascript:;" id="phn"><img src="phn/d.jpg" width="96%"><br><span>Galaxy M30s</span></a></td>
+      </tr>
+    </table>
+    <p class="sm"><a href="javascript:;" id="sm">See More</a></p>
+  </div>
+
+  <div id="onepp">
+    <p class="tri">Under ₹400 | Free delivery</p>
+        <table>
+      <tr>
+        <td><a href="javascript:;" id="phn"><img src="free/a.jpeg" width="50%"><br><span>Men's Fashion</span></a></td>
+        <td><a href="javascript:;" id="phn"><img src="free/b.jpeg" width="50%"><br><span>Women's Fashion</span></a></td>
+      </tr>
+    </table>
+        <table>
+      <tr>
+        <td><a href="javascript:;" id="phn"><img src="free/c.jpg" width="60%"><br><span>Electronics</span></a></td>
+        <td><a href="javascript:;" id="phn"><img src="free/d.jpeg" width="100%"><br><span>Home Decor</span></a></td>
+      </tr>
+    </table>
+    <p class="ex"><a href="javascript:;" id="sm">Explore all</a></p>
+  </div>
+
+  <div id="onepp">
+    <p class="tri">Recharges, bills, movies & more</p>
+    <table>
+      <tr>
+        <td><a href="javascript:;" id="phn"><img src="rech/a.jpg" width="96%"><br><span>Mobile Recharge</span></a></td>
+        <td><a href="javascript:;" id="phn"><img src="rech/b.jpg" width="96%"><br><span>Bills</span></a></td>
+      </tr>
+    </table>
+        <table>
+      <tr>
+        <td><a href="javascript:;" id="phn"><img src="rech/c.jpg" width="96%"><br><span>Movies</span></a></td>
+        <td><a href="javascript:;" id="phn"><img src="rech/d.jpg" width="96%"><br><span>Offers</span></a></td>
+      </tr>
+    </table>
+    <p class="sm"><a href="javascript:;" id="sm">See More</a></p>
+  </div>
+
+  <div id="onne">
+    <div id="oneppp">
+    <p class="tri">Sign in for your best experience</p>
+    <a href="javascript:;"><button style="cursor: pointer;">Sign In securely</button></a></div>
+    <div>
+      <img src="img/f.jpg">
+    </div>
+
+  </div>
+
+
+<!---here close first body section---->
+<div id="two">
+
+<div id="onepp">
+  <p class="tri">Up to 45% off | TVs & appliances</p>
+    <table>
+      <tr>
+        <td><a href="javascript:;" id="phn"><img src="app/a.jpg" width="96%"><br><span>Air Conditioner</span></a></td>
+        <td><a href="javascript:;" id="phn"><img src="app/b.jpg" width="96%"><br><span>Television</span></a></td>
+      </tr>
+    </table>
+        <table>
+      <tr>
+        <td><a href="javascript:;" id="phn"><img src="app/c.jpg" width="96%"><br><span>Refrigarator</span></a></td>
+        <td><a href="javascript:;" id="phn"><img src="app/d.jpg" width="96%"><br><span>Premius Tvs</span></a></td>
+      </tr>
+    </table>
+    <p class="sm"><a href="javascript:;" id="sm">See More</a></p>
+</div>
+<div id="onepp">
+  <p class="tri">Best-selling electronics | 2019 Year end special offers</p>
+  <a href="javascript:;"><img src="app/i.jpg" width="310x" height="270px"></a>
+  <p class="sm"><a href="javascript:;" id="sm">See More</a></p>
+</div>
+<div id="onepp">
+  <p class="tri">Voice control your lights & appliances | Ask Alexa</p>
+      <table>
+      <tr>
+        <td><a href="javascript:;" id="phn"><img src="app/e.jpg" width="96%"><br><span>Vivo U10</span></a></td>
+        <td><a href="javascript:;" id="phn"><img src="app/f.jpg" width="96%"><br><span>Galaxy M30s</span></a></td>
+      </tr>
+    </table>
+        <table>
+      <tr>
+        <td><a href="javascript:;" id="phn"><img src="app/g.jpg" width="96%"><br><span>Vivo U10</span></a></td>
+        <td><a href="javascript:;" id="phn"><img src="app/h.jpg" width="96%"><br><span>Galaxy M30s</span></a></td>
+      </tr>
+    </table>
+    <p class="sm"><a href="javascript:;" id="sm">See More</a></p>
+
+</div>
+<div id="onepp">
+    <p class="tri">Up to 40% off : Chocolates & more</p>
+  <a href="javascript:;"><img src="app/j.jpg" width="310x" height="270px"></a>
+  <p class="sm"><a href="javascript:;" id="sm">See More</a></p>
+</div>
+
+</div>
+
+<!-----here closed second body section----->
+
+<div id="three">
+  <div id="hd">
+    <p class="trri">Up to 60% off headphones & speakers | Amazon Brands & more <a href="javascript:;" id="smm"><span>See More</span></a></p>
+    <div id="overflow">
+              <table>
+      <tr>
+        <td><a href="javascript:;"><img src="hd/a.jpg"></a></td>
+        <td><a href="javascript:;"><img src="hd/b.jpg"></a></td>
+        <td><a href="javascript:;"><img src="hd/c.jpg" width="300px;"></a></td>
+        <td><a href="javascript:;"><img src="hd/d.jpg"></a></td>
+        <td><a href="javascript:;"><img src="hd/e.jpg"></a></td>
+        <td><a href="javascript:;"><img src="hd/f.jpg"></a></td>
+        <td><a href="javascript:;"><img src="hd/g.jpg" width="300px;"></a></td>
+        <td><a href="javascript:;"><img src="hd/h.jpg"></a></td>
+        <td><a href="javascript:;"><img src="hd/i.jpg"></a></td>
+        <td><a href="javascript:;"><img src="hd/j.jpg" width="300px;"></a></td>
+        <td><a href="javascript:;"><img src="hd/k.jpg"></a></td>
+        <td><a href="javascript:;"><img src="hd/l.jpg"></a></td>
+      </tr>
+    </table>
+    </div>
+
+  </div>
+</div>
+<!---here closed three body section------------>
+
+<div id="four">
+  <a href="javascript:;"><img src="img/g.jpg" id="pro"></a>
+  <style>
+  @keyframes go-left-right {        /* give it a name: "go-left-right" */
+    from { left: 100px;}             /* animate from left: 0px */
+    to { left: calc(-4% - 10px);} /* animate to left: 100%-50px */
+  }
+
+  #pro{
+    animation: go-left-right 2s infinite alternate;
+    /* apply the animation "go-left-right" to the element
+       duration 3 seconds
+       number of times: infinite
+       alternate direction every time
+    */
+
+    position: relative;
+    width: 950px;
+    height: 240px;
+    background-image: url(img/g.jpg);
+  }
+</style>
+</div>
+<!---here closed four------>
+
+<div id="five">
+
+<div id="onepp">
+  <p class="tri">Up to 50% off | Amazon <br>Brands & more</p>
+    <table>
+      <tr>
+        <td><a href="javascript:;" id="phn"><img src="app/k.jpg" width="96%"><br><span style="font-size: 12px;">Cookware and dinnerware</span></a></td>
+        <td><a href="javascript:;" id="phn"><img src="app/l.jpg" width="96%"><br><span>Kitchen applicanes</span></a></td>
+      </tr>
+    </table>
+        <table>
+      <tr>
+        <td><a href="javascript:;" id="phn"><img src="app/m.jpg" width="96%"><br><span>Storage and Container</span></a></td>
+        <td><a href="javascript:;" id="phn"><img src="app/n.jpg" width="96%"><br><span>Kitchen Tools</span></a></td>
+      </tr>
+    </table>
+    <p class="sm"><a href="javascript:;" id="sm">See More</a></p>
+</div>
+<div id="onepp">
+  <p class="tri">Explore mirrorless cameras</p>
+  <a href="javascript:;"><img src="app/o.jpg" width="310x" height="270px"></a>
+  <p class="sm"><a href="javascript:;" id="sm">See More</a></p>
+</div>
+<div id="onepp">
+  <p class="tri">Up to 60% off | Amazon Brands & more</p>
+      <table>
+      <tr>
+        <td><a href="javascript:;" id="phn"><img src="app/q.jpg" width="96%"><br><span>Mobile Accessories</span></a></td>
+        <td><a href="javascript:;" id="phn"><img src="app/r.jpg" width="96%"><br><span>Headphone & Speakers</span></a></td>
+      </tr>
+    </table>
+        <table>
+      <tr>
+        <td><a href="javascript:;" id="phn"><img src="app/s.jpg" width="96%"><br><span>Pc & laptop accessories</span></a></td>
+        <td><a href="javascript:;" id="phn"><img src="app/t.jpg" width="96%"><br><span>camera & accessories</span></a></td>
+      </tr>
+    </table>
+    <p class="sm"><a href="javascript:;" id="sm">See More</a></p>
+
+</div>
+<div id="onepp">
+    <p class="tri">Delightful decor for you</p>
+  <a href="javascript:;"><img src="app/p.jpeg" width="300x" height="270px"></a>
+  <p class="sm"><a href="javascript:;" id="sm">See More</a></p>
+</div>
+</div></div></div>
+
+<!---main section is closed------>
+
+<div class="umain">
+
+<table width="100%" id="in">
+  <tr>
+    <td><h1 id="ins">Inspired by your browsing history</h1></td>
+    <td><h5 id="inss">Page 1 of 5</h5></td>
+  </tr>
+</table>
+    <div id="overflow">
+              <table>
+      <tr>
+        <td><a href="javascript:;"><img src="but/a.jpg" width="200px"></a></td>
+        <td><a href="javascript:;"><img src="but/b.jpg" width="150px"></a></td>
+        <td><a href="javascript:;"><img src="but/c.jpg" width="200px"></a></td>
+        <td><a href="javascript:;"><img src="but/d.jpg" width="150px"></a></td>
+        <td><a href="javascript:;"><img src="but/e.jpg" width="200px"></a></td>
+        <td><a href="javascript:;"><img src="but/f.jpg" width="200px"></a></td>
+        <td><a href="javascript:;"><img src="but/g.jpg" width="130px"></a></td>
+        <td><a href="javascript:;"><img src="but/h.jpg" width="200px"></a></td>
+        <td><a href="javascript:;"><img src="but/i.jpg" width="115px"></a></td>
+        <td><a href="javascript:;"><img src="but/j.jpg" width="200px"></a></td>
+        <td><a href="javascript:;"><img src="but/k.jpg" width="200px"></a></td>
+        <td><a href="javascript:;"><img src="but/l.jpg" width="200px"></a></td>
+        <td><a href="javascript:;"><img src="but/m.jpg" width="200px"></a></td>
+        <td><a href="javascript:;"><img src="but/n.jpg" width="140px"></a></td>
+        <td><a href="javascript:;"><img src="but/o.jpg" width="200px"></a></td>
+        <td><a href="javascript:;"><img src="but/p.jpg" width="140px"></a></td>
+        <td><a href="javascript:;"><img src="but/q.jpg" width="150px"></a></td>
+        <td><a href="javascript:;"><img src="but/r.jpg" width="150px"></a></td>
+        <td><a href="javascript:;"><img src="but/s.jpg" width="200px"></a></td>
+        <td><a href="javascript:;"><img src="but/t.jpg" width="200px"></a></td>
+      </tr>
+    </table>
+</div>
+<p id="arrow">
+    <button onclick="left()"><i class="fa fa-arrow-circle-left" id="af"></i></button>
+    <button onclick="right()"><i class="fa fa-arrow-circle-right" id="af"></i></button>
+</p>
+
+</div>
+
+
+<!-----here close last body section now start foot section---------->
+
+<div class="footer">
+  <a href="#top" id="back"><div id="topp">
+    Back to top
+  </div></a>
+
+  <table id="ta">
+    <tr>
+      <th>Get to know us</th>
+      <th>Connect with us</th>
+      <th>Make money with us</th>
+      <th>Let us help you</th>
+    </tr>
+    <tr>
+      <td><a href="javascript:;" id="abo">About us</a></td>
+      <td><a href="javascript:;" id="abo">Facebook</a></td>
+      <td><a href="javascript:;" id="abo">Sell on Star World</a></td>
+      <td><a href="javascript:;" id="abo">your account</a></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:;" id="abo">Careers</a></td>
+      <td><a href="javascript:;" id="abo">Twitter</a></td>
+      <td><a href="javascript:;" id="abo">Sell under star world accelerators</a></td>
+      <td><a href="javascript:;" id="abo">Return centre</a></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:;" id="abo">Press releases</a></td>
+      <td><a href="javascript:;" id="abo">Instagram</a></td>
+      <td><a href="javascript:;" id="abo">Become an Affiliate</a></td>
+      <td><a href="javascript:;" id="abo">100% Purchase Protection</a></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:;" id="abo">Star world Cares</a></td>
+      <td></td>
+      <td><a href="javascript:;" id="abo">Fulfilment by Star world</a></td>
+      <td><a href="javascript:;" id="abo">Star world App Download</a></td>
+    </tr>
+    <tr>
+      <td><a href="javascript:;" id="abo">Gift a Smile</a></td>
+      <td></td>
+      <td><a href="javascript:;" id="abo">Advertise Your Products</a></td>
+      <td><a href="javascript:;" id="abo">Star world Assistant Download</a></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td><a href="javascript:;" id="abo">Star World Pay on Merchants</a></td>
+      <td><a href="javascript:;" id="abo">Help</a></td>
+    </tr>
+  </table>
+
+  <div id="last">
+    <p>
+          <a href="javascript:;" id="con">Conditions of Use & Sale</a><a href="javascript:;" id="con">Privacy Notice</a><a hred="javascript:;" id="con">Interest-Based Ads</a>
+          <span>© 1996-2019, Amazon.com, Inc. or its affiliates</span>
+
+
+    </p>
+  </div>
+<marquee id="hhh">This page is created By @Sovan Mondal</marquee>
+<script>
+setInterval(
+function () {
+  var randomColor = Math.floor(Math.random()*16777215).toString(16);
+  document.getElementById("hhh").style.backgroundColor = "#"+randomColor;
+},1000);
+</script>
+
+</div>
+
+
+
+
+  </body>
+</html>
